@@ -21,3 +21,4 @@ A Ruby script that accepts one argument and passes it to a regular expression ma
 - Usage: `./0-simply_match_school.rb <string>`
 Add newline at end of README.md for checker
 
+
