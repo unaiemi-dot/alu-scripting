@@ -1,15 +1,9 @@
 #!/usr/bin/env ruby
 # Task 1 – repetition token 0
-# Matches "hb" followed by "t" followed by "n" ONLY if b and t occur 0 times
+# Matches "h" followed by zero or more "b", then one or more "t", then "n"
 
 input = ARGV[0]
-matches = input.scan(/hb{0}t{0}n/)
+matches = input.scan(/hb*t+n/)
 puts matches.join
-1~#!/usr/bin/env ruby
-# Task 1 – repetition token 0
-# Matches "hb" followed by "t" followed by "n" ONLY if b and t occur 0 times
 
-input = ARGV[0]
-matches = input.scan(/hb{0}t{0}n/)
-puts matches.join
 
