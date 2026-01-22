@@ -4,6 +4,7 @@ This repository contains Ruby scripting exercises focused on regular expressions
 
 ## Requirements
 
+HEAD
 ### General
 - Allowed editors: `vi`, `vim`, `emacs`
 - All files will be interpreted on Ubuntu 20.04 LTS
@@ -18,3 +19,5 @@ This repository contains Ruby scripting exercises focused on regular expressions
 A Ruby script that accepts one argument and passes it to a regular expression matching method.
 - The regular expression must match the string pattern shown in the examples
 - Usage: `./0-simply_match_school.rb <string>`
+Add newline at end of README.md for checker
+
